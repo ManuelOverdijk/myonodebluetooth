@@ -1,0 +1,12 @@
+{
+  "name": "myo-bluetooth",
+  "version": "1.0.0",
+  "description": "Myo bluetooth library for IO.JS",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "^2.1.3",
+    "noble": "^0.3.13"
+  },
+  "author": "Manuel Overdijk",
+  "license": "ISC"
+}
