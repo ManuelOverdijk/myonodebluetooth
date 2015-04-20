@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/out/lib/armband/armband.js" />
+        <item url="file://$PROJECT_DIR$/out/lib/myoProtocol.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/out/lib/armband/armband.js" />
+      <root url="file://$PROJECT_DIR$/out/lib/myoProtocol.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
