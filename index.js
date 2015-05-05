@@ -7,7 +7,7 @@
  @copyright Manuel Overdijk, 2015
  */
 
-var MyoBluetooth = require('./lib/agent');
+var MyoNodeBluetooth = require('./lib/agent');
 
-module.exports = new MyoBluetooth();
+module.exports = new MyoNodeBluetooth();
 
