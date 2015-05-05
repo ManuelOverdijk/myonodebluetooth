@@ -1,12 +1,22 @@
 {
   "name": "myo-bluetooth",
-  "version": "1.0.0",
-  "description": "Myo bluetooth library for IO.JS",
+  "version": "0.1.0",
+  "description": "Myo bluetooth library for Node.JS using Noble",
   "main": "index.js",
   "dependencies": {
     "debug": "^2.1.3",
-    "noble": "^0.3.14"
+    "noble": "^0.3.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
   },
   "author": "Manuel Overdijk",
-  "license": "ISC"
+  "license": "ISC",
+  "maintainers": [
+    {
+      "name": "Manuel Overdijk",
+      "email": "manuel.overdijk@gmail.com"
+    }
+  ],
 }
