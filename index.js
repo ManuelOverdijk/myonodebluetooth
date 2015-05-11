@@ -6,8 +6,8 @@
  @license MIT
  @copyright Manuel Overdijk, 2015
  */
+"use strict"
 
 var MyoNodeBluetooth = require('./lib/agent');
-
 module.exports = new MyoNodeBluetooth();
 
