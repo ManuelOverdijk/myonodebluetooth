@@ -20,5 +20,19 @@
       "name": "Manuel Overdijk",
       "email": "manuel.overdijk@gmail.com"
     }
-  ]
+  ],
+  "jspm": {
+    "directories": {
+      "lib": ".",
+      "packages": "jspm_packages"
+    },
+    "dependencies": {
+      "bluebird": "npm:bluebird@^2.9.25",
+      "debug": "npm:debug@^2.2.0",
+      "events": "npm:events@^1.0.2",
+      "noble": "npm:noble@^0.3.14",
+      "promiseq": "npm:promiseq@^0.1.0",
+      "ws": "npm:ws@^0.7.1"
+    }
+  }
 }
