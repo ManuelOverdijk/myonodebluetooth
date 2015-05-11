@@ -4,8 +4,10 @@
   "description": "Myo bluetooth library for Node.JS using Noble",
   "main": "index.js",
   "dependencies": {
+    "bluebird": "^2.9.25",
     "debug": "^2.1.3",
-    "noble": "^0.3.8"
+    "noble": "^0.3.8",
+    "promiseq": "^0.1.0"
   },
   "repository": {
     "type": "git",
