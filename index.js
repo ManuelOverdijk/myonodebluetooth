@@ -9,5 +9,5 @@
 "use strict"
 
 var MyoNodeBluetooth = require('./lib/agent');
-module.exports = new MyoNodeBluetooth();
+module.exports = MyoNodeBluetooth;
 
