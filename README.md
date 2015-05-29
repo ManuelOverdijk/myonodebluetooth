@@ -2,6 +2,8 @@
 
 A bluetooth communication library for the myo armband, using Node and Noble and written in Javascript. **It doesn't require the Myo Connect software or the Myo SDK**, but communicates directly over bluetooth by using the released bluetooth spec. 
 
+For a demo build with this library, see https://www.youtube.com/watch?v=R19rKXpttjY The demo application will be published later.
+
 ## Install
 This library uses [Noble](https://github.com/sandeepmistry/noble) v0.3.8, which currently only supports Mac OS X and Linux. Checkout Noble to find out it's prerequisites and installation guidance. 
 
