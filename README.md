@@ -30,10 +30,9 @@ MyoAgent.on('discovered', function(armband){
     	// armband connected succesfully
         if(connected){
             // discover all services/characteristics and enable emg/imu/classifier chars
-        	this.armband.initStart();
+        	this.initStart();
     	} else {
     	  // armband disconnected
-          ...
    		}
 
 	});
@@ -44,11 +43,11 @@ MyoAgent.on('discovered', function(armband){
     	// register for events
         armband.on('batteryInfo',function(data){
         	console.log('BatteryInfo: ', data.batteryLevel);
-        }
+        });
         
         // read or write data from/to the Myo
         armband.readBatteryInfo();
-    }
+    });
     
    armband.connect();
 });
